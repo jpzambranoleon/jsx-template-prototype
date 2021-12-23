@@ -3,19 +3,16 @@ import "./sidebar.css"
 function Sidebar() {
     return (
         <div className="sidebar">
-            <div className="sidebarWrapper">
-                <ul className="sidebarList">
-                    <li className="sidebarListItem">
-                        <span className="sidebarListItemText">Dashboard</span>
-                    </li>
-                    <li className="sidebarListItem">
-                        <span className="sidebarListItemText">Icons</span>
-                    </li>
-                    <li className="sidebarListItem">
-                        <span className="sidebarListItemText">Maps</span>
-                    </li>
-                    <li className="sidebarListItem">
-                        <span className="sidebarListItemText">User Profile</span>
+            <div className="logo-content">
+                <div className="logo">
+                    <div className="logo-name">someSocial</div>
+                    <i className="bx bx-menu"></i>
+                </div>
+                <ul className="nav-list">
+                    <li>
+                        <a href="#">
+                            <i className="bx bx-grid-alt" ></i>
+                        </a>
                     </li>
                 </ul>
             </div>

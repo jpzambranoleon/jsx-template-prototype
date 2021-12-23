@@ -1,11 +1,11 @@
-import Topbar from "../../components/topbar/Topbar"
 import Sidebar from "../../components/sidebar/Sidebar";
 
 function Home() {
     return (
         <>
-            <Topbar />
- 
+            <div>
+                <Sidebar />
+            </div>
         </>
     );
 }
