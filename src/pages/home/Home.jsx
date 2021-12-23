@@ -1,7 +1,9 @@
+import Sidebar from "../../components/sidebar/Sidebar";
+
 function Home() {
     return (
         <div className="homeContainer">
-            Hello boi
+            <Sidebar />
         </div>
     );
 }
