@@ -1,3 +1,4 @@
+import GridViewIcon from '@mui/icons-material/GridView';
 import "./sidebar.css"
 
 function Sidebar() {
@@ -11,7 +12,7 @@ function Sidebar() {
                 <ul className="nav-list">
                     <li>
                         <a href="#">
-                            <i className="bx bx-grid-alt" ></i>
+                            <GridViewIcon />
                         </a>
                     </li>
                 </ul>
