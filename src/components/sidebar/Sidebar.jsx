@@ -1,13 +1,12 @@
 import MenuIcon from '@mui/icons-material/Menu';
-import GridViewIcon from '@mui/icons-material/GridView';
-import SearchIcon from '@mui/icons-material/Search';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import PieChartOutlineIcon from '@mui/icons-material/PieChartOutline';
-import FolderOpenIcon from '@mui/icons-material/FolderOpen';
-import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import PersonIcon from '@mui/icons-material/Person';
+import ChatIcon from '@mui/icons-material/Chat';
+import AnalyticsIcon from '@mui/icons-material/Analytics';
+import FolderIcon from '@mui/icons-material/Folder';
+import ColorLensIcon from '@mui/icons-material/ColorLens';
+import BookmarkIcon from '@mui/icons-material/Bookmark';
+import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import "./sidebar.css"
 
@@ -18,58 +17,48 @@ function Sidebar() {
                 <div className="logo">
                     <div className="logo-name">someSocial</div>
                 </div>
-                <MenuIcon />
+                <MenuIcon className="menu-icon"/>
             </div>
             <ul className="nav-list">
                 <li>
-                    <SearchIcon />
-                    <input type="text" placeholder="Search..." /> 
-                </li>
-                <li>
-                    <a href="#">
-                        <GridViewIcon />
+                    <a href="menu-item active">
+                        <i><DashboardIcon htmlColor="purple" /></i>
                         <span className="links-name">Dashboard</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <PersonOutlineIcon />
+                        <i><PersonIcon htmlColor="goldenrod"/></i>
                         <span className="links-name">User</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <ChatBubbleOutlineIcon />
+                        <i><ChatIcon htmlColor='green' /></i>
                         <span className="links-name">Messages</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <PieChartOutlineIcon />
+                        <i><AnalyticsIcon htmlColor='tomato'/></i>
                         <span className="links-name">Analytics</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <FolderOpenIcon />
-                        <span className="links-name">File Manager</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <ColorLensOutlinedIcon />
+                        <i><ColorLensIcon htmlColor='pink' /></i>
                         <span className="links-name">Theme</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <BookmarkBorderIcon />
+                        <i><BookmarkIcon htmlColor='blue'/></i>
                         <span className="links-name">Saved</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <SettingsOutlinedIcon />
+                        <i><SettingsIcon htmlColor='grey'/></i>
                         <span className="links-name">Settings</span>
                     </a>
                 </li>
@@ -77,13 +66,13 @@ function Sidebar() {
             <div className="profile-content">
                 <div className="profile">
                     <div className="profile-details">
-                        {/* <img src="/assets/person/diana.jpg" alt="" /> */}
+                        <img src="/assets/person/diana.jpg" alt="" />
                         <div className="name-job">
                             <div className="name">Diana Ayi</div>
                             <div className="job">Front-end Developer</div>
                         </div>
                     </div>
-                    <LogoutOutlinedIcon />
+                    <LogoutOutlinedIcon className="log-out"/>
                 </div>
             </div>
         </div>
