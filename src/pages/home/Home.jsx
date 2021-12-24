@@ -1,3 +1,4 @@
+import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 function Home() {
@@ -5,6 +6,7 @@ function Home() {
         <>
             <div>
                 <Sidebar />
+                <Navbar />
             </div>
         </>
     );
