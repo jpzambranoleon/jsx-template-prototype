@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+nav {
+    width: 100%;
+    background: white;
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+nav .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-icon {
+    position: relative;
+    font-size: 19px;
+    top: 0.2rem;
+}
+
+.nav-search-bar {
+    background: #eef3f8;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+}
+
+.nav-search-bar input[type="search"] {
+    background: transparent;
+    width: 30vw;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: hsl(252, 30%, 17%);
+}
+
+nav .nav-search-bar input[type="search"] {
+    color: hsl(252, 15%, 65%);
+}
+
+.nav-profile-photo {
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+nav .nav-create-btn {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

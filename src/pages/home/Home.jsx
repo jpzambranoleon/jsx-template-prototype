@@ -1,14 +1,12 @@
 import Sidebar from "../../components/sidebar/Sidebar";
-import Navbar from "../../components/navbar/Navbar";
+import Topbar from "../../components/topbar/Topbar";
 import Header from "../../components/header/Header";
 
 function Home() {
     return (
         <>
-            <Navbar />
+            <Topbar />
             <div className="home-container">
-                <Sidebar />
-                <Header />
             </div>
         </>
     );
