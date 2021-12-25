@@ -1,5 +1,6 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
 
 function Home() {
     return (
@@ -7,6 +8,7 @@ function Home() {
             <Navbar />
             <div className="home-container">
                 <Sidebar />
+                <Header />
             </div>
         </>
     );
