@@ -5,15 +5,15 @@ import "./topbar.css"
 function Topbar() {
     return (
         <nav>
-            <div class="nav-container">
+            <div class="container">
                 <h2 class="log">someSocial</h2>
-                <div class="nav-search-bar">
-                    <SearchIcon className="search-icon"/>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
                     <input type="search" placeholder="Search for creators, inspirations, and projects" />
                 </div>
-                <div class="nav-create-btn">
-                    <Button className="create-btn" variant="outlined">Create</Button>
-                    <div class="nav-profile-photo">
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Create</label>
+                    <div class="profile-photo">
                         <img src="/assets/person/diana.jpg" />
                     </div>
                 </div>

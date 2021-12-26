@@ -3,17 +3,9 @@ main {
     top: 5.4rem;
 }
 
-main .home-container {
-    width: 80%;
-    margin: 0 auto;
+main .container {
     display: grid;
-    grid-template-columns: 18vh auto 20vw;
+    grid-template-columns: 18vw auto 20vw;
     column-gap: 2rem;
     position: relative;
-}
-
-main .home-container .left {
-    height: max-content;
-    position: sticky;
-    top: 5.4rem;
 }

@@ -6,8 +6,8 @@
 }
 
 .stories .story {
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-.middle .stories .story::before {
+.stories .story::before {
     content: "";
     display: block;
     width: 100%;
@@ -29,13 +29,13 @@
     bottom: 0;
 }
 
-.stories .story .your-story {
+.stories .story .name {
     z-index: 2;
 }
 
-.middle .story .story-profile-img {
+.story .profile-photo {
     width: 2rem;
     height: 2rem;
     align-self: start;
-    border: purple;
+    border: 3px solid var(--color-primary);
 }
