@@ -1,9 +1,10 @@
 import Profilebox from "../../components/profilebox/Profilebox";
 import Topbar from "../../components/topbar/Topbar";
 import Stories from "../../components/stories/Stories";
-import "./home.css"
 import CreatePost from "../../components/createpost/CreatePost";
 import Feed from "../../components/feed/Feed";
+import Sidebar from "../../components/sidebar/Sidebar";
+import "./home.css"
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <Topbar />
             <main>
                 <div className="container">
+                    <Sidebar />
                     <div className="left">
 
                     </div>
