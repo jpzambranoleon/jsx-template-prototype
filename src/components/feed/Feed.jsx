@@ -20,7 +20,7 @@ function Feed() {
                 </div>
 
                 <div className="photo">
-                    <img src="./images/post1.jpg" />
+                    <img src="/assets/post/post5.jpg" />
                 </div>
 
                 <div className="action-buttons">
