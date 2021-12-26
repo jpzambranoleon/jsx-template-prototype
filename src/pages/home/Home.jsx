@@ -3,6 +3,7 @@ import Topbar from "../../components/topbar/Topbar";
 import Stories from "../../components/stories/Stories";
 import "./home.css"
 import CreatePost from "../../components/createpost/CreatePost";
+import Feed from "../../components/feed/Feed";
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
                     <div className="middle">
                         <Stories />
                         <CreatePost />
+                        <Feed />
                     </div>
                     <div className="right">
                         <div>
