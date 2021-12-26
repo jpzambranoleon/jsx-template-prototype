@@ -2,6 +2,7 @@ import Profilebox from "../../components/profilebox/Profilebox";
 import Topbar from "../../components/topbar/Topbar";
 import Stories from "../../components/stories/Stories";
 import "./home.css"
+import CreatePost from "../../components/createpost/CreatePost";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
                     </div>
                     <div className="middle">
                         <Stories />
+                        <CreatePost />
                     </div>
                     <div className="right">
                         <div>
