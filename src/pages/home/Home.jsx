@@ -1,13 +1,25 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
+import Stories from "../../components/stories/Stories";
+import Profilebox from "../../components/profilebox/Profilebox";
 
 function Home() {
     return (
         <>
             <Topbar />
-            <div className="home-container">
-                <Sidebar />
-            </div>
+            <main>
+                <div className="container">
+                    <div className="left">
+                        <Profilebox />
+                    </div>
+                    <div className="middle">
+
+                    </div>
+                    <div className="right">
+
+                    </div>
+                </div>
+            </main>
         </>
     );
 }

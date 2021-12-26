@@ -1,4 +1,19 @@
-.home-container {
-    display: flex;
-    width: 100%;
+main {
+    position: relative;
+    top: 5.4rem;
+}
+
+main .home-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 18vh auto 20vw;
+    column-gap: 2rem;
+    position: relative;
+}
+
+main .home-container .left {
+    height: max-content;
+    position: sticky;
+    top: 5.4rem;
 }
