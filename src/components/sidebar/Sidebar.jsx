@@ -3,11 +3,9 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
-import FolderIcon from '@mui/icons-material/Folder';
 import ColorLensIcon from '@mui/icons-material/ColorLens';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import SettingsIcon from '@mui/icons-material/Settings';
-import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import "./sidebar.css"
 
 function Sidebar() {
@@ -18,17 +16,6 @@ function Sidebar() {
                 </div>
                 <MenuIcon className="menu-icon"/>
             </div>
-            <a className="profile">
-                <div className="profile-photo">
-                    <img src="/assets/person/diana.jpg"/>
-                </div>
-                <div className="handle">
-                    <h4>Diana Ayi</h4>
-                    <p className="text-muted">
-                        @dayi
-                    </p>
-                </div>
-            </a>
             <ul className="nav-list">
                 <li>
                     <a className="menu-item active" href="#">
