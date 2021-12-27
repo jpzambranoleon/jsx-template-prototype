@@ -9,13 +9,23 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import "./sidebar.css"
 
 function Sidebar() {
+    let btn = document.querySelector("#btn")
+    let sidebar = document.querySelector(".sidebar")
+
+    btn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+
+
+
+
     return (
         <div className="sidebar">
             <div className="logo-content">
                 <div className="logo">
-                    
+
                 </div>
-                <MenuIcon className="menu-icon" />
+                <MenuIcon className="menu-icon" id="btn"/>
             </div>
             <ul className="nav-list">
                 <li>
