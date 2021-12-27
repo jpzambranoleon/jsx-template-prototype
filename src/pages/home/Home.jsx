@@ -1,7 +1,6 @@
 import Profilebox from "../../components/profilebox/Profilebox";
 import Topbar from "../../components/topbar/Topbar";
 import Stories from "../../components/stories/Stories";
-import CreatePost from "../../components/createpost/CreatePost";
 import Feed from "../../components/feed/Feed";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css"
@@ -19,7 +18,6 @@ function Home() {
                     </div>
                     <div className="middle">
                         <Stories />
-                        <CreatePost />
                         <Share />
                         <Feed />
                     </div>

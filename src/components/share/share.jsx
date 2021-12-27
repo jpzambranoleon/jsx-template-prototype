@@ -7,10 +7,12 @@ function Share() {
         <div className="share">
             <div className="share-wrapper">
                 <div className="share-top">
-                    <div className="profile-photo">
-                        <img src="/assets/person/diana.jpg"/>
-                    </div>
-                    <input placeholder="What's on your mind, Diana?" className="share-input"/>
+                    <form className="create-post">
+                        <div className="profile-photo">
+                            <img src="/assets/person/diana.jpg" />
+                        </div>
+                        <input type="text" placeholder="What's on your mind, Diana?" id="create-post" />
+                    </form>
                 </div>
 
                 <hr className="share-hr" />
