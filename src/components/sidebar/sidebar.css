@@ -32,34 +32,6 @@
     margin-top: 20px;
 }
 
-.profile-photo {
-    width: 2.7rem;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-img {
-    display: block;
-    width: 100%;
-}
-
-.text-muted {
-    color:hsl(252, 15%, 65%)
-}
-
-.profile {
-    position: relative;
-    top: 60px;
-    padding: 1rem;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    column-gap: 1rem;
-    width: 100%;
-    box-shadow: 0 0 2rem 0 rgba(136,152,170,.36);
-}
-
 .sidebar ul li {
     position: relative;
     top: 60px;
