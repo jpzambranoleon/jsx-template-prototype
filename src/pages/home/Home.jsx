@@ -2,7 +2,6 @@ import Profilebox from "../../components/profilebox/Profilebox";
 import Topbar from "../../components/topbar/Topbar";
 import Stories from "../../components/stories/Stories";
 import Feed from "../../components/feed/Feed";
-import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css"
 import Share from "../../components/share/Share";
 
@@ -14,7 +13,7 @@ function Home() {
                 <div className="container">
             
                     <div className="left">
-
+                        <Profilebox />
                     </div>
                     <div className="middle">
                         <Stories />
