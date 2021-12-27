@@ -12,7 +12,7 @@ function Home() {
             <Topbar />
             <main>
                 <div className="container">
-                    <Sidebar />
+            
                     <div className="left">
 
                     </div>
