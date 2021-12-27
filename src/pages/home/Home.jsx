@@ -5,6 +5,7 @@ import CreatePost from "../../components/createpost/CreatePost";
 import Feed from "../../components/feed/Feed";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css"
+import Share from "../../components/share/Share";
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
                     <div className="middle">
                         <Stories />
                         <CreatePost />
+                        <Share />
                         <Feed />
                     </div>
                     <div className="right">
