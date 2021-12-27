@@ -1,9 +1,9 @@
 import Profilebox from "../../components/profilebox/Profilebox";
 import Topbar from "../../components/topbar/Topbar";
-import Stories from "../../components/stories/Stories";
 import Feed from "../../components/feed/Feed";
 import "./home.css"
 import Share from "../../components/share/Share";
+import Sidebar from "../../components/sidebar/Sidebar";
 
 function Home() {
     return (
@@ -14,9 +14,9 @@ function Home() {
             
                     <div className="left">
                         <Profilebox />
+                        <Sidebar />
                     </div>
                     <div className="middle">
-                        <Stories />
                         <Share />
                         <Feed />
                     </div>

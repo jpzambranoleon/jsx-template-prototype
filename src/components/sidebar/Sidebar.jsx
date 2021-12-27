@@ -13,50 +13,65 @@ function Sidebar() {
         <div className="sidebar">
             <div className="logo-content">
                 <div className="logo">
+                    
                 </div>
-                <MenuIcon className="menu-icon"/>
+                <MenuIcon className="menu-icon" />
             </div>
             <ul className="nav-list">
                 <li>
                     <a className="menu-item active" href="#">
                         <i><DashboardIcon htmlColor="purple" /></i>
-                        <span className="links-name">Dashboard</span>
+                        <span className="links-name">
+                            <h5>Dashboard</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><PersonIcon htmlColor="goldenrod"/></i>
-                        <span className="links-name">User</span>
+                        <span className="links-name">
+                            <h5>User</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><ChatIcon htmlColor='green' /></i>
-                        <span className="links-name">Messages</span>
+                        <span className="links-name">
+                            <h5>Messages</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><AnalyticsIcon htmlColor='tomato'/></i>
-                        <span className="links-name">Analytics</span>
+                        <span className="links-name">
+                            <h5>Analytics</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><ColorLensIcon htmlColor='pink' /></i>
-                        <span className="links-name">Theme</span>
+                        <span className="links-name">
+                            <h5>Theme</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><BookmarkIcon htmlColor='blue'/></i>
-                        <span className="links-name">Saved</span>
+                        <span className="links-name">
+                            <h5>Saved</h5>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a className="menu-item" href="#">
                         <i><SettingsIcon htmlColor='grey'/></i>
-                        <span className="links-name">Settings</span>
+                        <span className="links-name">
+                            <h5>Settings</h5>
+                        </span>
                     </a>
                 </li>
             </ul>

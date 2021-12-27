@@ -1,31 +1,22 @@
 .sidebar {
     position: fixed;
-    top: 0;
     left: 0;
-    height: 100%;
-    width: 240px;
-    background: white;
-    padding: 6px 14px;
-    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+    margin-top: 1rem;
+    width: 9.4rem;
+    background: var(--color-white);
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    border-top-right-radius: var(--card-border-radius);
+    border-bottom-right-radius: var(--card-border-radius);
 }
 
-
-.logo-content .logo .logo-name {
-    font-size: 20px;
-    font-weight: 400;
+.sidebar .logo-content {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
 }
 
-.sidebar .menu-icon {
-    position: absolute;
-    color: black;
-    left: 90%;
-    top: 6px;
-    font-size: 20px;
-    height: 50px;
-    width: 27px;
-    text-align: center;
-    line-height: 50px;
-    transform: translate(-50%);
+.sidebar .logo-content .menu-icon {
+    margin-right: 1rem;
 }
 
 .sidebar ul {
@@ -34,7 +25,6 @@
 
 .sidebar ul li {
     position: relative;
-    top: 60px;
     height: 50px;
     width: 100%;
     margin: 0 5px;
@@ -43,11 +33,15 @@
 }
 
 .sidebar ul li a {
-    color: hsl(252, 15%, 65%);
+    color: var(--color-gray);
     display: flex;
     align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
+}
+
+.sidebar ul li a i {
+    height: 2.5rem;
 }
 
 .sidebar ul li a:hover {
@@ -64,14 +58,11 @@
     width: 0.2rem;
     height: 90%;
     position: absolute;
-    left: -18.9px;
+    left: -5px;
     background: purple;
 }
 
-.sidebar ul li  i {
-    height: 40px;
-    min-width: 50px;
-    border-radius: 12px;
-    line-height: 50px;
-    text-align: center;
+.sidebar ul li a h5 {
+    margin-left: 1.5rem;
+    font-size: 1rem;
 }
