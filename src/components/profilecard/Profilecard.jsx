@@ -3,7 +3,7 @@ import GoogleIcon from '@mui/icons-material/Google';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "./profilecard.css"
 
-function Profilecard() {
+function ProfileCard() {
     return(
         <div className="profile-card-container">
             <div className="cover-photo" style={{backgroundImage: "url(/assets/cover/cover.jpg)"}}>
@@ -53,4 +53,4 @@ function Profilecard() {
     )
 }
 
-export default Profilecard;
+export default ProfileCard;

@@ -2,7 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import "./topbar.css"
 
-function Topbar() {
+function TopBar() {
     return (
         <nav>
             <div className="container">
@@ -22,4 +22,4 @@ function Topbar() {
     )
 }
 
-export default Topbar;
+export default TopBar;

@@ -1,20 +1,19 @@
-import Profilebox from "../../components/profilebox/Profilebox";
-import Topbar from "../../components/topbar/Topbar";
+import TopBar from "../../components/topbar/TopBar";
 import Feed from "../../components/feed/Feed";
 import "./home.css"
 import Share from "../../components/share/Share";
-import Sidebar from "../../components/sidebar/Sidebar";
-import Profilecard from "../../components/profilecard/Profilecard";
+import SideBar from "../../components/sidebar/SideBar";
+import ProfileCard from "../../components/profilecard/ProfileCard";
 
 function Home() {
     return (
         <>
-            <Topbar />
+            <TopBar />
             <main>
-                <Sidebar />
+                <SideBar />
                 <div className="container">
                     <div className="left">
-                        <Profilecard />
+                        <ProfileCard />
                     </div>
                     <div className="middle">
                         <Share />

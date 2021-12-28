@@ -1,6 +1,6 @@
 import "./profilebox.css"
 
-function Profilebox() {
+function ProfileBox() {
     return (
         <a className="profile">
             <div className="profile-photo">
@@ -16,4 +16,4 @@ function Profilebox() {
     )
 }
 
-export default Profilebox;
+export default ProfileBox;

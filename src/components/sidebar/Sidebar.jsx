@@ -8,7 +8,7 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import SettingsIcon from '@mui/icons-material/Settings';
 import "./sidebar.css"
 
-function Sidebar() {
+function SideBar() {
     let btn = document.querySelector("#btn");
     let sidebar = document.querySelector(".sidebar");
 
@@ -49,4 +49,4 @@ function Sidebar() {
     )
 }
 
-export default Sidebar;
+export default SideBar;
