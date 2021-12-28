@@ -3,14 +3,14 @@ main {
     top: 5.4rem;
 }
 
-main .profile-page-container {
-    display: grid;
-    grid-template-columns: 60vw auto;
-    column-gap: 2rem;
-    position: relative;
-}
-
 .profile-page-container {
     width: 80%;
     margin: 0 auto;
+}
+
+main .profile-page-container {
+    display: grid;
+    grid-template-columns: 55vw auto;
+    column-gap: 2rem;
+    position: relative;
 }
