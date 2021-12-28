@@ -4,17 +4,17 @@ import Feed from "../../components/feed/Feed";
 import "./home.css"
 import Share from "../../components/share/Share";
 import Sidebar from "../../components/sidebar/Sidebar";
+import Profilecard from "../../components/profilecard/Profilecard";
 
 function Home() {
     return (
         <>
             <Topbar />
             <main>
+                <Sidebar />
                 <div className="container">
-            
                     <div className="left">
-                        <Profilebox />
-                        <Sidebar />
+                        <Profilecard />
                     </div>
                     <div className="middle">
                         <Share />

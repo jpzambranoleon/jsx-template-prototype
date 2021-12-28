@@ -9,15 +9,12 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import "./sidebar.css"
 
 function Sidebar() {
-    let btn = document.querySelector("#btn")
-    let sidebar = document.querySelector(".sidebar")
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
 
     btn.onclick = function() {
         sidebar.classList.toggle("active");
     }
-
-
-
 
     return (
         <div className="sidebar">
@@ -27,64 +24,27 @@ function Sidebar() {
                 </div>
                 <MenuIcon className="menu-icon" id="btn"/>
             </div>
-            <ul className="nav-list">
-                <li>
-                    <a className="menu-item active" href="#">
-                        <i><DashboardIcon htmlColor="purple" /></i>
-                        <span className="links-name">
-                            <h5>Dashboard</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><PersonIcon htmlColor="goldenrod"/></i>
-                        <span className="links-name">
-                            <h5>User</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><ChatIcon htmlColor='green' /></i>
-                        <span className="links-name">
-                            <h5>Messages</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><AnalyticsIcon htmlColor='tomato'/></i>
-                        <span className="links-name">
-                            <h5>Analytics</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><ColorLensIcon htmlColor='pink' /></i>
-                        <span className="links-name">
-                            <h5>Theme</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><BookmarkIcon htmlColor='blue'/></i>
-                        <span className="links-name">
-                            <h5>Saved</h5>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a className="menu-item" href="#">
-                        <i><SettingsIcon htmlColor='grey'/></i>
-                        <span className="links-name">
-                            <h5>Settings</h5>
-                        </span>
-                    </a>
-                </li>
-            </ul>
+            <a className="menu-item active">
+                <span><i><DashboardIcon htmlColor="purple"/></i></span><h5>Dashboard</h5>
+            </a>
+            <a className="menu-item">
+                <span><i><PersonIcon htmlColor="goldenrod"/></i></span><h5>User</h5>
+            </a>
+            <a className="menu-item" id="notifications">
+                <span><i><ChatIcon htmlColor="green" /></i></span><h5>Messages</h5>
+            </a>
+            <a className="menu-item" id="messages-notification">
+                <span><i><AnalyticsIcon htmlColor="tomato" /></i></span><h5>Analytics</h5>
+            </a>
+            <a className="menu-item" id="theme">
+                <span><i><ColorLensIcon htmlColor="pink" /></i></span><h5>Theme</h5>
+            </a>
+            <a className="menu-item">
+                <span><i><BookmarkIcon htmlColor="blue" /></i></span><h5>Saved</h5>
+            </a>
+            <a className="menu-item">
+                <span><i><SettingsIcon htmlColor="grey" /></i></span><h5>Settigs</h5>
+            </a>
         </div>
     )
 }
