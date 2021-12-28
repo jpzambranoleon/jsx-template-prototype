@@ -8,11 +8,11 @@ function Topbar() {
             <div className="container">
                 <h2 className="log">someSocial</h2>
                 <div className="search-bar">
-                    <i className="uil uil-search"></i>
+                    <i><SearchIcon className="search-icon" fontSize="small"/></i>
                     <input type="search" placeholder="Search for creators, inspirations, and projects" />
                 </div>
                 <div className="create">
-                    <label className="btn btn-primary" for="create-post">Create</label>
+                    <Button variant = "contained">Create</Button>
                     <div className="profile-photo">
                         <img src="/assets/person/diana.jpg" />
                     </div>

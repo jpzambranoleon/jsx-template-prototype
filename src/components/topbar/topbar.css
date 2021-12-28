@@ -19,6 +19,11 @@ nav .container {
     padding: var(--search-padding);
 }
 
+.search-icon {
+    position: relative;
+    top: 0.2rem;
+}
+
 .search-bar input[type="search"] {
     background: transparent;
     width: 30vw;

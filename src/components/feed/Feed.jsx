@@ -1,3 +1,8 @@
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
+import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import "./feed.css"
 
 function Feed() {
@@ -15,7 +20,7 @@ function Feed() {
                         </div>
                     </div>
                     <span className="edit">
-                        <i className="uil uil-ellipsis-h"></i>
+                        <MoreHorizIcon />
                     </span>
                 </div>
 
@@ -25,12 +30,12 @@ function Feed() {
 
                 <div className="action-buttons">
                     <div className="interaction-buttons">
-                        <span><i className="uil uil-heart"></i></span>
-                        <span><i className="uil uil-comment-dots"></i></span>
-                        <span><i className="uil uil-share-alt"></i></span>
+                        <span><FavoriteBorderIcon /></span>
+                        <span><MessageOutlinedIcon /></span>
+                        <span><ShareOutlinedIcon /></span>
                     </div>
                     <div className="bookmark">
-                        <span><i className="uil uil-bookmark-full"></i></span>
+                        <span><BookmarkBorderIcon /></span>
                     </div>
                 </div>
 
