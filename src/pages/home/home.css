@@ -10,12 +10,6 @@ main .container {
     position: relative;
 }
 
-main .container .left {
-    height: max-content;
-    position: sticky;
-    top: var(--sticky-top-left);
-}
-
 main .container .right {
     height: max-content;
     position: sticky;
