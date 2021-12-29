@@ -1,7 +1,12 @@
+import { useState } from "react";
+import Box from "@mui/material/Box";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import "./profilecontainer.css"
 
 function ProfileContainer() {
+
     return(
         <div className="profile-container">
             <div className="profile-cover-photo" style={{backgroundImage: "url(/assets/cover/cover.jpg)"}}>
@@ -18,9 +23,9 @@ function ProfileContainer() {
                     @dayi
                 </p>
             </div>
-            <p className="about-profile">
-            User Interface Designer and Front-End Developer
-            </p>
+            <div className="profile-description">
+                <p>User Interface Designer and Front-End Developer</p>
+            </div>
         </div>
     )
 }
