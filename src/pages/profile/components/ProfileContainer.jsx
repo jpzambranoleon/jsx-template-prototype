@@ -1,3 +1,4 @@
+import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import "./profilecontainer.css"
 
 function ProfileContainer() {
@@ -7,13 +8,19 @@ function ProfileContainer() {
                 <div className="profile-container-img">
                     <img src="/assets/person/diana.jpg" />
                 </div>
+                <EditOutlinedIcon className="edit-icon" />
             </div>
             <div className="profile-container-name">
-                Diana Ayi
-                <p className="text-muted">
+                <p className="user-name">
+                    Diana Ayi
+                </p>
+                <p className="user-tag">
                     @dayi
                 </p>
             </div>
+            <p className="about-profile">
+            User Interface Designer and Front-End Developer
+            </p>
         </div>
     )
 }
