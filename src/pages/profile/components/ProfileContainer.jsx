@@ -26,6 +26,20 @@ function ProfileContainer() {
             <div className="profile-description">
                 <p>User Interface Designer and Front-End Developer</p>
             </div>
+            <div className="skills-container">
+                <div className="skills-row">
+                    <div className="skills-img">
+
+                    </div>
+                    <div className="skills-text-box">
+                        <div className="skills-text">
+                            <p>HTML</p>
+                            <span>90%</span>
+                        </div>
+                        <div className="skills-bar"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
