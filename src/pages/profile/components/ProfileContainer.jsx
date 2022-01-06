@@ -22,6 +22,24 @@ function ProfileContainer() {
             <div className="profile-description">
                 <p>User Interface Designer and Front-End Developer</p>
             </div>
+            <div className="card-footer">
+                <div className="numbers">
+                    <div className="item">
+                        <span>120</span>
+                        Posts
+                    </div>
+                    <div className="border"></div>
+                    <div className="item">
+                        <span>127</span>
+                        Following
+                    </div>
+                    <div className="border"></div>
+                    <div className="item">
+                        <span>120K</span>
+                        Followers
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
