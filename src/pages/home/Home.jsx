@@ -11,7 +11,7 @@ function Home() {
         <>
             <TopBar />
             <main>
-                <SideBar />
+                
                 <div className="container">
                     <div className="left">
                         <ProfileCard />
