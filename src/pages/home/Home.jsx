@@ -5,6 +5,7 @@ import Share from "./components/share/Share";
 import SideBar from "../../components/sidebar/SideBar";
 import ProfileCard from "./components/profilecard/ProfileCard";
 import MessageBox from "./components/messagebox/MessageBox";
+import ProjectBox from "./components/projectbox/ProjectBox";
 
 function Home() {
     return (
@@ -21,7 +22,7 @@ function Home() {
                         <Feed />
                     </div>
                     <div className="right">
-                        <MessageBox />
+                        <ProjectBox />
                     </div>
                 </div>
             </main>
