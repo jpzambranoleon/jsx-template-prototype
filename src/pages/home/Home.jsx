@@ -7,7 +7,7 @@ import ProfileCard from "./components/profilecard/ProfileCard";
 import MessageBox from "./components/messagebox/MessageBox";
 import ProjectBox from "./components/projectbox/ProjectBox";
 
-function Home() {
+export default function Home() {
     return (
         <>
             <TopBar />
@@ -29,5 +29,3 @@ function Home() {
         </>
     );
 }
-
-export default Home;
