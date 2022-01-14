@@ -9,7 +9,15 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import "./sidebar.css"
 
 export default function SideBar() {
-   
+    
+    /* 
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function() {
+        sidebar.classList.toggle("active");
+    } 
+    */
 
     return (
         <div className="sidebar">
