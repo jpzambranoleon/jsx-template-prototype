@@ -12,7 +12,7 @@ export default function Home() {
         <>
             <TopBar />
             <main>
-                
+                <Sidebar />
                 <div className="container">
                     <div className="left">
                         <ProfileCard />
