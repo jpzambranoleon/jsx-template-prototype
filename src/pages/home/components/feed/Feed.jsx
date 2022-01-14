@@ -5,7 +5,7 @@ import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import "./feed.css"
 
-function Feed() {
+export default function Feed() {
     return (
         <div className="feeds">
             <div className="feed">
@@ -54,5 +54,3 @@ function Feed() {
         </div>
     )
 }
-
-export default Feed;
