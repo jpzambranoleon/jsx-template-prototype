@@ -2,7 +2,7 @@ import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import "./messagebox.css"
 
-function MessageBox() {
+export default function MessageBox() {
     return(
         <div class="messages">
             <div class="heading">
@@ -84,5 +84,3 @@ function MessageBox() {
         </div>
     )
 }
-
-export default MessageBox;
